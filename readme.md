@@ -1,4 +1,4 @@
-# 📖 소프트웨어 장인 책 리뷰
+# 📖 테스트 주도 개발
 
 - https://www.yes24.com/Product/Goods/12246033
 
