@@ -18,7 +18,7 @@
 - 하드코딩을 한 다음에 상수를 변수로 대체하여 일반성을 이끌어내는 방식으로 기능을 구현했다.
 
 - 부트스트랩 to load a program into a computer using a much smaller initial program to load in the desired program (which is usually an operating system)
-- 플러거블 셀렉터(pluggable selector)란 Replace subclasses with dynamically generated method calls. 장점은 객체 별로 서로다른 메서드가 동적으로 호출되게 함으로써 필요 없는 하위클래스의 생성을 피한다.
+- 플러거블 셀렉터(pluggable selector) Replace subclasses with dynamically generated method calls. 장점은 객체 별로 서로다른 메서드가 동적으로 호출되게 함으로써 필요 없는 하위클래스의 생성을 피한다.
 
 # 테이블 차리기
 테스트를 작성하다보면 공통된 패턴을 발견하게 된다. 
@@ -27,6 +27,6 @@
 * 확인(assert): 결과를 검사한다.
 
 # 실패 처리하기
-테스트가 작동하도록 하려면 예외를 잡아야하고 현재까지의 구현에서는 예외가 보고되지 않기 때문에 이를 위한 작업 진행.
-테스트 결과를 반환해주는 클래스를 만들고 n개 성공 n개 실패라는 결과문을 봔환해줌.
+테스트가 작동하도록 하려면 예외를 잡아야하고 현재까지의 구현에서는 예외가 보고되지 않기 때문에 이를 위한 작업을 진행한다.
+테스트 결과를 반환해주는 클래스를 만들고 n개 성공 n개 실패라는 결과문을 반환해준다. 
  
