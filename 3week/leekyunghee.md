@@ -16,10 +16,9 @@
 
 일단 한 번만 수동으로 검증하면 앞으로는 이 과정을 자동화할 수 있다. 
 - 하드코딩을 한 다음에 상수를 변수로 대체하여 일반성을 이끌어내는 방식으로 기능을 구현했다.
-- Plugubble selector를 사용
 
-부트스트랩: to load a program into a computer using a much smaller initial program to load in the desired program (which is usually an operating system)
-플러거블 셀렉터(pluggable selector)란 Replace subclasses with dynamically generated method calls. 장점은 객체 별로 서로다른 메서드가 동적으로 호출되게 함으로써 필요 없는 하위클래스의 생성을 피한다. (run메서드를 의미하는 듯)
+- 부트스트랩 to load a program into a computer using a much smaller initial program to load in the desired program (which is usually an operating system)
+- 플러거블 셀렉터(pluggable selector)란 Replace subclasses with dynamically generated method calls. 장점은 객체 별로 서로다른 메서드가 동적으로 호출되게 함으로써 필요 없는 하위클래스의 생성을 피한다.
 
 # 테이블 차리기
 테스트를 작성하다보면 공통된 패턴을 발견하게 된다. 
